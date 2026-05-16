@@ -5,13 +5,79 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Insurance
-  - Financial
+  - Financial Services
   - Asset Management
-description: 'A French multinational insurance firm and one of the world''s largest providers of life, health, and asset management services. Operates in 50 countries serving over 90 million customers globally.'
+description: >-
+  AXA is a French multinational insurance firm and one of the world's largest
+  providers of life, health, property & casualty, and asset management
+  services. AXA does not publish a single global developer portal; technology
+  integration is delivered through country-specific broker and partner
+  portals, AXA Partners B2B2C distribution channels, AXA XL specialty
+  insurance APIs for commercial brokers, and ACORD / EDI standards used
+  across the insurance industry.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
-    url: https://www.walmart.com/
+    url: https://www.axa.com/
+  - type: GroupSite
+    url: https://group.axa.com/
+  - type: Partners
+    url: https://www.axapartners.com/
+  - type: AXAXL
+    url: https://axaxl.com/
+  - type: Brokers
+    url: https://axaxl.com/brokers
+  - type: Suppliers
+    url: https://www.axa.com/en/about-us/suppliers
+  - type: PrivacyPolicy
+    url: https://www.axa.com/en/page/privacy-policy
+  - type: TermsOfService
+    url: https://www.axa.com/en/page/general-terms-and-conditions-of-use
+  - type: Contact
+    url: https://www.axa.com/en/about-us/contact
+  - type: Features
+    data:
+      - name: Country Broker Portals
+        description: AXA operating entities publish country-specific broker and agent portals (e.g. AXA UK, AXA France, AXA Germany) used for quote, bind, and policy servicing.
+      - name: AXA Partners Embedded Insurance
+        description: AXA Partners offers travel, assistance, and embedded insurance distributed via B2B2C partners through private API integrations.
+      - name: AXA XL Specialty Insurance
+        description: AXA XL provides commercial property, casualty, marine, and specialty risk capacity through ACORD-aligned broker workflows.
+      - name: ACORD Messaging
+        description: Policy, claims, and accounting transactions are exchanged with brokers and reinsurers using ACORD AL3 and ACORD XML standards.
+      - name: Group Communications
+        description: Investor relations, ESG disclosures, and group press releases are published on group.axa.com.
+  - type: UseCases
+    data:
+      - name: Broker Policy Administration
+        description: Brokers issue quotes, bind policies, and service customers through AXA's country-specific portals and ACORD-aligned channels.
+      - name: Embedded Insurance Distribution
+        description: Banks, telcos, and travel platforms distribute AXA-branded coverage through AXA Partners B2B2C agreements.
+      - name: Claims Notification and Servicing
+        description: First notice of loss and claims status updates are exchanged with policyholders, brokers, and repair networks.
+      - name: Reinsurance and Capacity Placement
+        description: Treaty and facultative placements with reinsurers use ACORD reinsurance accounting and claims messaging.
+      - name: ESG and Sustainability Reporting
+        description: AXA publishes climate, biodiversity, and sustainability disclosures aligned with TCFD, CSRD, and SBTi frameworks.
+  - type: Compliance
+    data:
+      - name: Solvency II
+        description: AXA's European insurance entities operate under the EU Solvency II prudential regime.
+      - name: GDPR
+        description: European personal-data handling is governed by the EU General Data Protection Regulation.
+      - name: NAIC Model Regulations
+        description: AXA XL US operations follow applicable NAIC model regulations and state insurance department requirements.
+      - name: NYDFS Cybersecurity Regulation
+        description: AXA XL US operations are subject to NYDFS 23 NYCRR 500 cybersecurity requirements where applicable.
+      - name: TCFD / CSRD
+        description: Climate-related disclosures align with the Task Force on Climate-related Financial Disclosures and the EU Corporate Sustainability Reporting Directive.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
