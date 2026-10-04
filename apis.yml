@@ -27,12 +27,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axa.png
 tags:
   - Insurance
-  - Financial-Services
+  - Financial Services
   - Asset Management
 tags_raw:
   - Insurance
   - Financial Services
   - Asset Management
+  - Financial-Services
 description: >-
   AXA is a French multinational insurance firm and one of the world's largest
   providers of life, health, property & casualty, and asset management
