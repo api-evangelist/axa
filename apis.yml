@@ -43,10 +43,12 @@ description: >-
   insurance APIs for commercial brokers, and ACORD / EDI standards used
   across the insurance industry.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.axa.com/en/news
+    type: Blog
   - type: DomainSecurity
     url: security/axa-domain-security.yml
   - type: GitHubOrganization
